@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentCreate", "DocumentCreate", "{8B79EDF5-15A0-4CD3-842B-0BA1BABCB926}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publish", "Publish", "{338BD8EB-3929-438F-A3CB-21E8C24AC52F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consume", "Consume", "{B7C7AF70-9D6D-445E-A334-41A068607FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentPublishForm", "DocumentCreate\Publish\DocumentPublishForm\DocumentPublishForm.csproj", "{CBBAEEE3-A158-4998-BEDB-807EF31FC347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentConsumeForm", "DocumentCreate\Consume\DocumentConsumeForm\DocumentConsumeForm.csproj", "{7ADE210D-ABCD-4D58-830C-68496DC81BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBBAEEE3-A158-4998-BEDB-807EF31FC347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBAEEE3-A158-4998-BEDB-807EF31FC347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBAEEE3-A158-4998-BEDB-807EF31FC347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBAEEE3-A158-4998-BEDB-807EF31FC347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADE210D-ABCD-4D58-830C-68496DC81BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADE210D-ABCD-4D58-830C-68496DC81BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADE210D-ABCD-4D58-830C-68496DC81BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADE210D-ABCD-4D58-830C-68496DC81BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{338BD8EB-3929-438F-A3CB-21E8C24AC52F} = {8B79EDF5-15A0-4CD3-842B-0BA1BABCB926}
+		{B7C7AF70-9D6D-445E-A334-41A068607FFC} = {8B79EDF5-15A0-4CD3-842B-0BA1BABCB926}
+		{CBBAEEE3-A158-4998-BEDB-807EF31FC347} = {338BD8EB-3929-438F-A3CB-21E8C24AC52F}
+		{7ADE210D-ABCD-4D58-830C-68496DC81BEE} = {B7C7AF70-9D6D-445E-A334-41A068607FFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8F2FA94-422B-47DC-B63B-3B94CB653CEE}
+	EndGlobalSection
+EndGlobal
