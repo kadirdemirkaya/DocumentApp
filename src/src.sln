@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentPublishForm", "Docu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentConsumeForm", "DocumentCreate\Consume\DocumentConsumeForm\DocumentConsumeForm.csproj", "{7ADE210D-ABCD-4D58-830C-68496DC81BEE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Photos", "Photos", "{6D474704-653F-41CA-BAA5-96F8FC51F315}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\ProjectPhotos\Consume.png = ..\..\..\ProjectPhotos\Consume.png
+		..\..\..\ProjectPhotos\Publish.png = ..\..\..\ProjectPhotos\Publish.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,7 @@ Global
 		{B7C7AF70-9D6D-445E-A334-41A068607FFC} = {8B79EDF5-15A0-4CD3-842B-0BA1BABCB926}
 		{CBBAEEE3-A158-4998-BEDB-807EF31FC347} = {338BD8EB-3929-438F-A3CB-21E8C24AC52F}
 		{7ADE210D-ABCD-4D58-830C-68496DC81BEE} = {B7C7AF70-9D6D-445E-A334-41A068607FFC}
+		{6D474704-653F-41CA-BAA5-96F8FC51F315} = {8B79EDF5-15A0-4CD3-842B-0BA1BABCB926}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8F2FA94-422B-47DC-B63B-3B94CB653CEE}
