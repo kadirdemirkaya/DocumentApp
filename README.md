@@ -1,10 +1,7 @@
+# Project Title
 
-# Proje Başlığı
+This is a Windows Form project and the project was developed with rabbitMQ to communicate using message-brokers in event-based projects. Data is sent from the project for publishing purposes, and the Consumer project consumes the data and creates documentation. The aim of the project is to understand the message-broker logic.
 
-Bu bir Windows Form projesidir ve projenin geliştirilme amacı event bazlı projeler de message-broker kullanarak iletişim sağlamak amacıyla rabbitMQ ile geliştirildi. Publish amaçlı projeden veri yola çıkar ve Consumer olan proje veriyi tüketerek dökümantasyon oluşturur. Projenin amacı message-broker mantığını anlamak.
+## Documentation
 
-## Dökümantasyon
-
-Burada üç farklı (.pdf, .json, .txt) formatlı dosyalar oluşturulabilir
-
-
+Files in three different (.pdf, .json, .txt) formats can be created here
