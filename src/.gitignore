@@ -1,0 +1,57 @@
+# Compiled Object files
+*.suo
+*.dll
+*.exe
+*.pdb
+*.dll
+*.exe
+
+# Visual Studio files
+.vscode/
+*.vspscc
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.bak
+*.cache
+*.cachefile
+*.csproj.user
+*.log
+*.vsix
+*.pubxml
+*.nupkg
+*.pfx
+obj/
+bin/
+TestResults/
+[Tt]est[Rr]esult*/
+*.VisualState.xml
+_build/*
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pfx
+*.publishsettings
+# Publish Web Projects
+*.Publish.xml
+*.pubxml
+*.deploy
+*.pubxml.user
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+*.sqlproj
+*.rdl.data
+*.bim.layout
+*.bim_*.settings

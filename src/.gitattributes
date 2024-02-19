@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# C# source code files
+*.cs text
+
+# Visual Studio files
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.vcxproj text eol=crlf
+*.fsproj text eol=crlf
+*.dbproj text eol=crlf
+*.sqlproj text eol=crlf
+*.nuspec text eol=crlf
+*.vcproj text eol=crlf
